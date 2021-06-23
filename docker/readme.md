@@ -10,6 +10,8 @@ Plan the terraform
 $ terraform plan -var "container_name=mynginx"      
 Apply the terraform   
 $ terraform apply -var "container_name=mynginx"  
+Terraform inspect state    
+$ terraform show   
 ```bash
 $ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
